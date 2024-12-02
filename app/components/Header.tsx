@@ -31,7 +31,7 @@ function Header() {
                             <li className="nav--item"><a href="#">Home</a></li>
                             <li className="nav--item"><a href="#about">About</a></li>
                             <li className="nav--item"><a href="#skills">Skills</a></li>
-                            <li className="nav--item"><a href="#portfolio">Portfolio</a></li>
+                            <li className="nav--item"><a href="#project">Project</a></li>
                         </ul>
 
                         <div className="nav--others">

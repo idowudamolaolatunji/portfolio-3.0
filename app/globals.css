@@ -767,36 +767,36 @@ div.tools--box {
 	background-color: rgb(135, 59, 100);
 }
 
-.portfolio--container {
+.project--container {
 	display: flex;
 	flex-direction: column;
 	margin-top: 8rem;
 }
-.portfolio__figure {
+.project__figure {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
-.portfolio--text-box {
+.project--text-box {
 	padding: 6rem 4rem;
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
 }
-.portfolio--title {
+.project--title {
 	font-size: 2rem;
 	font-weight: 600;
 }
-.portfolio--text {
+.project--text {
 	font-size: 1.34rem;
 	opacity: 0.7;
 	line-height: 1.5;
 }
-.portfolio--btns {
+.project--btns {
 	display: flex;
 	align-items: center;
 	gap: 2rem;
 }
-.portfolio--btns a {
+.project--btns a {
 	padding: 0.8rem 1rem;
 	font-size: 1.28rem;
 	font-weight: 600;
@@ -804,19 +804,19 @@ div.tools--box {
 	align-items: center;
 	gap: 0.6rem;
 }
-.portfolio--btns .icon {
+.project--btns .icon {
 	font-size: 2rem;
 	margin-top: -0.18rem;
 }
-.portfolio--btns a.demo {
+.project--btns a.demo {
 	background-image: var(--maingradient);
 	color: #eee;
 }
-.portfolio--btns a.code {
+.project--btns a.code {
 	background-color: #eee;
 	color: #242424;
 }
-.portfolio--img-box {
+.project--img-box {
 	width: 100%;
 	min-height: auto;
 	display: flex;
@@ -826,7 +826,7 @@ div.tools--box {
 	padding: 2rem 0;
 	border-radius: 0.24rem;
 }
-.portfolio--img {
+.project--img {
 	width: 90%;
 	height: 150%;
 	object-fit: 100%;
@@ -909,7 +909,7 @@ a.social--item,
 	font-weight: 500;
 }
 .form--textarea {
-	min-height: 10rem;
+	min-height: 16rem;
 }
 .form--btn {
 	padding: 1.2rem 2rem;
@@ -1013,8 +1013,8 @@ a.social--item,
 	span.arrow-to-top {
 		bottom: 10rem;
 		right: 2rem;
-		width: 4.8rem;
-		height: 4.8rem;
+		width: 5rem;
+		height: 5rem;
 	}
 	.header.main--desktop {
 		display: none;
@@ -1066,13 +1066,21 @@ a.social--item,
 		display: flex;
 	}
 
-	.portfolio__figure {
+	.project__figure {
 		grid-template-columns: 1fr;
 		gap: 0rem;
 	}
 	.contact--container {
 		grid-template-columns: 1fr;
 		gap: 8rem;
+	}
+	.footer--container {
+		grid-template-columns: 1fr;
+		gap: 3.4rem;
+        margin-bottom: 6rem;
+	}
+	.footer--urls {
+		gap: 3rem;
 	}
 
     .menu-box {
@@ -1169,35 +1177,35 @@ a.social--item,
 		margin-bottom: 4rem;
 	}
 
-	.portfolio--container {
+	.project--container {
 		margin-top: 6.2rem;
 		gap: 4.2em;
 	}
-	.portfolio__figure {
+	.project__figure {
 		gap: 3rem;
 	}
-	.portfolio--text-box {
+	.project--text-box {
 		padding: 0;
 	}
-	.portfolio--img-box {
+	.project--img-box {
 		padding: 0rem;
 		border-radius: .2rem;
 		overflow: hidden;
 	}
-	.portfolio--img {
+	.project--img {
 		width: 100%;
 		height: 100%;
 	}
-	.portfolio--btns {
+	.project--btns {
 		gap: 0.82rem;
 	}
 
 	.footer--container {
 		grid-template-columns: 1fr;
-        margin-bottom: 6rem;
+		gap: 2.8rem;
 	}
-	.footer--logo-box {
-		margin-bottom: 0.4rem;
+	.footer--urls {
+		gap: 2.48rem;
 	}
 	.footer--title {
 		font-size: 1.4rem;
@@ -1250,7 +1258,9 @@ a.social--item,
 		font-size: 2rem;
 	}
 	.form--flex {
-		gap: 1rem;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
 	}
 }
 
@@ -1266,10 +1276,5 @@ a.social--item,
 	.skill--box img {
 		width: 4rem;
         height: 4rem;
-	}
-	.form--flex {
-		display: flex;
-		flex-direction: column;
-		gap: 2rem;
 	}
 }

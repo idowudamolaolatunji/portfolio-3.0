@@ -15,7 +15,7 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import SkillsSection from "./components/SkillsSection";
 import ContactSection from "./components/ContactSection";
-import PortfolioSection from "./components/PortfolioSection";
+import ProjectSection from "./components/ProjectSection";
 import Footer from "./components/Footer";
 import MobileMenu from "./components/MobileMenu";
 
@@ -52,7 +52,7 @@ export default function Home() {
 			<HeroSection />
 			<AboutSection />
 			<SkillsSection />
-			<PortfolioSection />
+			<ProjectSection />
 			<ContactSection />
 			<Footer />
 

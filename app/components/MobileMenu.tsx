@@ -3,6 +3,7 @@ import React from 'react'
 import { GoHomeFill } from 'react-icons/go'
 import { MdInfo, MdOutlineWebhook } from 'react-icons/md'
 import { RiArchiveStackFill } from 'react-icons/ri'
+import { TiUser } from 'react-icons/ti'
 
 
 function MobileMenu() {
@@ -14,7 +15,7 @@ function MobileMenu() {
             </a>
 
             <a href="#about" className='menu-card'>
-                <MdInfo className="icon" />
+                <TiUser className="icon" />
                 <span className="nav--item">About</span>
             </a>
 
