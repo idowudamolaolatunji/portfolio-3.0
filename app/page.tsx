@@ -33,7 +33,7 @@ export default function Home() {
     }, [y]);
 
     useEffect(function () {
-        if (y >= 300) setShowMobileMenu(true);
+        if (y >= 250) setShowMobileMenu(true);
         else setShowMobileMenu(false)
     }, [y]);
 

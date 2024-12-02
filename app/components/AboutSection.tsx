@@ -29,10 +29,9 @@ function AboutSection() {
                     A Highly motivated and reliable full stack software developer with a strong educational foundation in Computer Science and {calcYears()}+ years of industry experience.
 
                     <ul className='about--lists'>
-                        <li>Proficient in a range of web technologies, including front-end and back-end development</li>
+                        <li>Proficient in a range of web technologies, including frontend, backend and mobile development</li>
                         <li>Strong passion for continuous learning and self-improvement</li>
                         <li>Effective collaborator with excellent communication and interpersonal skills</li>
-                        <li>Proven ability to deliver high-quality solutions and drive value for organizations</li>
                         <li>Strong analytical and problem-solving skills, with attention to detail and commitment to excellence</li>
                     </ul>
                 </span>
