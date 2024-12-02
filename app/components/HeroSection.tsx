@@ -18,7 +18,7 @@ function HeroSection() {
                         <h2 className='hero__title'>
                             Hi, I'm Idowu.
                         </h2>
-                        <p className='hero__subtitle'>I am a{" "}
+                        <span className='hero__subtitle'>I am a{" "}
                             <TypeAnimation
                                 className='hero--extras'
                                 sequence={[
@@ -40,7 +40,7 @@ function HeroSection() {
                                 speed={50}
                                 repeat={Infinity}
                             />
-                        </p>
+                        </span>
 
                         <p className='hero__text'>I build mordern and unique user interfaces with scalable and dynamic backend applications.</p>
                         <p className='hero__text'>Do you Want to take your team & project to the next level?</p>
