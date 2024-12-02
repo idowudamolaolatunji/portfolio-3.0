@@ -16,7 +16,7 @@ import tailwind from './tailwind.svg';
 import scss from './sass.svg';
 
 
-export default {
+const svgs = {
     css,
     scss,
     javascript, 
@@ -34,3 +34,5 @@ export default {
     typescript, 
     tailwind, 
 }
+
+export default svgs;

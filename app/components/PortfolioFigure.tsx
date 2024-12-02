@@ -8,7 +8,7 @@ import { useWindowSize } from "react-use";
 interface PortfolioProps {
 	title: string;
 	text: string;
-	imageSrc: string | any;
+	imageSrc?: string | any;
 	index: number;
 	linkDemo: string;
 	linkGithub: string[];

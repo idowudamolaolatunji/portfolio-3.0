@@ -16,7 +16,7 @@ function HeroSection() {
                 <div className="hero__container">
                     <div className="hero__text-box">
                         <h2 className='hero__title'>
-                            Hi, I'm Idowu.
+                            Hi, I&apos;m Idowu.
                         </h2>
                         <span className='hero__subtitle'>I am a{" "}
                             <TypeAnimation

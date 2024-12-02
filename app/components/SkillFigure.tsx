@@ -7,7 +7,7 @@ import { useWindowSize } from "react-use";
 
 interface Tool {
 	name: string;
-	icon: string | any;
+	icon: string;
 	range: number;
 }
 

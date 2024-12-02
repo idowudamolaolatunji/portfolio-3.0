@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useWindowScroll, useWindowSize } from "react-use";
-// import AnimatedCursor from "react-animated-cursor";
 import ArrowToTop from "./components/ArrowToTop";
 import Spinner from "./components/Spinner";
 
