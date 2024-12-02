@@ -260,7 +260,7 @@ span.arrow-to-top {
 	right: 0;
 	height: 100vh;
 	width: 100%;
-	background-color: #242424a5;
+	background-color: rgba(36, 36, 36, 0.8);
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
 	z-index: 1000;
@@ -272,16 +272,17 @@ span.arrow-to-top {
 
 .spinner {
     --uib-size: 4rem;
-    --uib-color: rgb(135, 59, 100);
+    /* --uib-color: rgb(135, 59, 100); */
+    --uib-color: #fff;
     --uib-speed: 1s;
     --uib-bg-opacity: .1;
     height: var(--uib-size);
     width: var(--uib-size);
     transform-origin: center;
     overflow: visible;
-  }
+}
 
-  .wing {
+.wing {
     fill: none;
     stroke: var(--uib-color);
     stroke-dasharray: 15, 85;
@@ -290,15 +291,15 @@ span.arrow-to-top {
     animation: travel var(--uib-speed) linear infinite;
     will-change: stroke-dasharray, stroke-dashoffset;
     transition: stroke 0.5s ease;
-  }
+}
 
-  .track {
+.track {
     stroke: var(--uib-color);
     opacity: var(--uib-bg-opacity);
     transition: stroke 0.5s ease;
-  }
+}
 
-  @keyframes travel {
+@keyframes travel {
     0% {
       stroke-dashoffset: 0;
     }
@@ -306,7 +307,7 @@ span.arrow-to-top {
     100% {
       stroke-dashoffset: -100;
     }
-  }
+}
 
 
 

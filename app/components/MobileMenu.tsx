@@ -1,11 +1,8 @@
 "use client"
 import React from 'react'
-import { BsBriefcase } from 'react-icons/bs'
-import { GoHome, GoHomeFill, GoInfo } from 'react-icons/go'
+import { GoHomeFill } from 'react-icons/go'
 import { MdInfo, MdOutlineWebhook } from 'react-icons/md'
 import { RiArchiveStackFill } from 'react-icons/ri'
-import { RxStack } from 'react-icons/rx'
-import { SiAboutdotme } from 'react-icons/si'
 
 
 function MobileMenu() {

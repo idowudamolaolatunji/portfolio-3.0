@@ -25,7 +25,7 @@ function AboutSection() {
                     <h3 className="section__title">About</h3>
                     <p className="section__subtitle">Get to know Idowu</p>
                 </div>
-                <p className="about--text">
+                <span className="about--text">
                     A Highly motivated and reliable full stack software developer with a strong educational foundation in Computer Science and {calcYears()}+ years of industry experience.
 
                     <ul className='about--lists'>
@@ -35,7 +35,7 @@ function AboutSection() {
                         <li>Proven ability to deliver high-quality solutions and drive value for organizations</li>
                         <li>Strong analytical and problem-solving skills, with attention to detail and commitment to excellence</li>
                     </ul>
-                </p>
+                </span>
 
                 <span className="about--info">
                     <span className='info-box'>
