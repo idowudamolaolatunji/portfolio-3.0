@@ -1,8 +1,13 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 import { useWindowScroll, useWindowSize } from "react-use";
 import ArrowToTop from "./components/ArrowToTop";
-import AnimatedCursor from "react-animated-cursor";
+
+const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
+	ssr: false,
+});
+  
 import Spinner from "./components/Spinner";
 
 import Header from "./components/Header";
