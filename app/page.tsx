@@ -2,11 +2,8 @@
 import React, { useEffect, useState } from "react";
 import { useWindowScroll, useWindowSize } from "react-use";
 import ArrowToTop from "./components/ArrowToTop";
+import AnimatedCursor from "react-animated-cursor";
 import Spinner from "./components/Spinner";
-
-const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
-    ssr: false,
-});
 
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
@@ -16,7 +13,6 @@ import ContactSection from "./components/ContactSection";
 import PortfolioSection from "./components/PortfolioSection";
 import Footer from "./components/Footer";
 import MobileMenu from "./components/MobileMenu";
-import dynamic from "next/dynamic";
 
 export default function Home() {
 	const [isLoading, setIsLoading] = useState(true);
