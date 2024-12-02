@@ -28,7 +28,7 @@ function ProjectFigure({ title, text, imageSrc, index, linkDemo, linkGithub, ful
 						<p className="project--text">{text}</p>
 						<div className="project--btns">
                             <a className="demo" target="_blank" href={linkDemo}>
-                                <FaRegEye className="icon" /> See Live
+                                <FaRegEye className="icon" style={{ fontSize: "2.2rem" }} /> See Live
                             </a>
 
 							{fullStack ? (
@@ -63,7 +63,7 @@ function ProjectFigure({ title, text, imageSrc, index, linkDemo, linkGithub, ful
 						<p className="project--text">{text}</p>
 						<div className="project--btns">
                             <a className="demo" target="_blank" href={linkDemo}>
-                                <FaRegEye className="icon" /> See Live
+                                <FaRegEye className="icon" style={{ fontSize: "2.2rem" }} /> See Live
                             </a>
 
 							{fullStack ? (

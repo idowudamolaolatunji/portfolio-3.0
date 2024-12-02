@@ -44,7 +44,7 @@ function AboutSection() {
 
                     <span className='info-box'>
                         <p><CountUp end={10} enableScrollSpy duration={2.5} />+</p>
-                        <p>project done</p>
+                        <p>projects done</p>
                     </span>
 
                     <span className='info-box'>

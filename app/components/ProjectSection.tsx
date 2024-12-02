@@ -9,10 +9,10 @@ import clubmerce from '../assets/images/resources/clubmerce.png';
 
 function ProjectSection() {
     return (
-        <section className='section project__section' id='project'>
+        <section className='section project__section' id='projects'>
             <div className="container">
                 <div className="section__title-box">
-                    <h3 className="section__title">Project</h3>
+                    <h3 className="section__title">Projects</h3>
                     <p className="section__subtitle">My past projects worked on</p>
                 </div>
 

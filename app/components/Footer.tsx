@@ -29,7 +29,7 @@ function Footer() {
 					{width > 650 && (
 						<ul className="footer--list">
 							<li><a href="#skills">Skills</a></li>
-							<li><a href="#project">Project</a></li>
+							<li><a href="#projects">Projects</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					)}

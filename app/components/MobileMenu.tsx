@@ -1,9 +1,9 @@
 "use client"
 import React from 'react'
+import { BsTools } from 'react-icons/bs'
 import { GoHomeFill } from 'react-icons/go'
-import { MdOutlineWebhook } from 'react-icons/md'
+import { HiMiniUserCircle } from 'react-icons/hi2'
 import { RiArchiveStackFill } from 'react-icons/ri'
-import { TiUser } from 'react-icons/ti'
 
 
 function MobileMenu() {
@@ -15,18 +15,18 @@ function MobileMenu() {
             </a>
 
             <a href="#about" className='menu-card'>
-                <TiUser className="icon" />
+                <HiMiniUserCircle className="icon" />
                 <span className="nav--item">About</span>
             </a>
 
             <a href="#skills" className='menu-card'>
-                <MdOutlineWebhook className="icon" />
+                <BsTools className="icon" />
                 <span className="nav--item">Skills</span>
             </a>
 
-            <a href="#project" className='menu-card'>
+            <a href="#projects" className='menu-card'>
                 <RiArchiveStackFill className="icon" />
-                <span className="nav--item">Project</span>
+                <span className="nav--item">Projects</span>
             </a>
         </menu>
     )

@@ -957,7 +957,7 @@ a.social--item,
 .footer__socials {
 	display: flex;
 	align-items: center;
-	gap: 3.2rem;
+	gap: 3.6rem;
 }
 .footer--urls .icon {
 	font-size: 3rem;
