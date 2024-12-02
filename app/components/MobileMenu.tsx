@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import { GoHomeFill } from 'react-icons/go'
-import { MdInfo, MdOutlineWebhook } from 'react-icons/md'
+import { MdOutlineWebhook } from 'react-icons/md'
 import { RiArchiveStackFill } from 'react-icons/ri'
 import { TiUser } from 'react-icons/ti'
 
@@ -24,9 +24,9 @@ function MobileMenu() {
                 <span className="nav--item">Skills</span>
             </a>
 
-            <a href="#portfolio" className='menu-card'>
+            <a href="#project" className='menu-card'>
                 <RiArchiveStackFill className="icon" />
-                <span className="nav--item">Portfolio</span>
+                <span className="nav--item">Project</span>
             </a>
         </menu>
     )
