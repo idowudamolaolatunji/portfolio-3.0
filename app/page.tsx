@@ -56,7 +56,7 @@ export default function Home() {
 			<ContactSection />
 			<Footer />
 
-            {(width <= 600 && showMobileMenu) && <MobileMenu />}
+            {(width <= 650 && showMobileMenu) && <MobileMenu />}
 			{showArrowToTop && <ArrowToTop />}
 		</>
 	);

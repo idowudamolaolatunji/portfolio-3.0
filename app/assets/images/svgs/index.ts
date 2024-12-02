@@ -15,8 +15,26 @@ import typescript from './ts.svg'
 import tailwind from './tailwind.svg';
 import scss from './sass.svg';
 
+interface ImageStr {
+    css: string;
+    scss: string;
+    javascript: string; 
+    react: string; 
+    node: string; 
+    next: string; 
+    express: string; 
+    figma: string; 
+    canva: string; 
+    html: string; 
+    mongodb: string; 
+    mongoose: string; 
+    postman: string; 
+    reactnative: string; 
+    typescript: string; 
+    tailwind: string; 
+}
 
-const svgs = {
+const svgs: ImageStr = {
     css,
     scss,
     javascript, 

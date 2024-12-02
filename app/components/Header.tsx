@@ -17,7 +17,7 @@ function Header() {
         <>
             <header className='header main--desktop' style={hasScrolledPass100 ? {
                 backdropFilter: "blur(10px)",
-                backgroundColor: "rgba(0, 0, 0, 0.1)"
+                backgroundColor: "rgba(0, 0, 0, 0.2)"
             } : {}}>
                 <div className="header--container">
                     <div className="logo--box">
@@ -44,7 +44,7 @@ function Header() {
 
             <header className='header main--mobile' style={hasScrolledPass100 ? {
                 backdropFilter: "blur(10px)",
-                backgroundColor: "rgba(0, 0, 0, 0.1)"
+                backgroundColor: "rgba(0, 0, 0, 0.2)"
             } : {}}>
                 <div className="header--container">
                     <div className="logo--box">

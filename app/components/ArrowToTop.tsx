@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { IoMdArrowUp } from 'react-icons/io';
 import { useWindowScroll } from 'react-use';
 
+
 function ArrowToTop() {
 	const { y } = useWindowScroll();
     const [isAnimating, setIsAnimating] = useState(false);
@@ -25,7 +26,7 @@ function ArrowToTop() {
     }, [y]);
 
     return (
-        <span onClick={handleToTop} className={`arrow-to-top ${isAnimating ? 'arrow-animation' : ''}`}>
+        <span onClick={handleToTop} className={`arrow-to-top ${isAnimating ? 'arrow-animation' : ""}`}>
             <IoMdArrowUp className='icon' />
         </span>
     )

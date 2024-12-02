@@ -26,7 +26,15 @@ function AboutSection() {
                     <p className="section__subtitle">Get to know Idowu</p>
                 </div>
                 <p className="about--text">
-                    I am a passionate tech enthusiast with a Bachelor of Science degree in Computer Science. With {calcYears()}+ years of experience as a full-stack developer, I have honed my skills in both fundamental and advanced web technologies. I am known for my reliability and boundless energy, which I channel into my love for programming and technology. My burning desire to learn and improve my skills is a driving force in my career.
+                    A Highly motivated and reliable full stack software developer with a strong educational foundation in Computer Science and {calcYears()}+ years of industry experience.
+
+                    <ul className='about--lists'>
+                        <li>Proficient in a range of web technologies, including front-end and back-end development</li>
+                        <li>Strong passion for continuous learning and self-improvement</li>
+                        <li>Effective collaborator with excellent communication and interpersonal skills</li>
+                        <li>Proven ability to deliver high-quality solutions and drive value for organizations</li>
+                        <li>Strong analytical and problem-solving skills, with attention to detail and commitment to excellence</li>
+                    </ul>
                 </p>
 
                 <span className="about--info">

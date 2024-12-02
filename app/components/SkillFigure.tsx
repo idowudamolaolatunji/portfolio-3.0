@@ -48,7 +48,7 @@ function SkillFigure({ title, text, tools, icon }: SkillProps) {
 					</span>
 				</div>
 
-				<span onClick={handleClick} style={{ alignSelf: "flex-start" }}>
+				<span onClick={handleClick} style={{ alignSelf: "flex-start", marginTop: "-0.5rem" }}>
 					<IoIosArrowDown className="icon" style={isShown ? { transform: "rotate(180deg)" } : {}} />
 				</span>
 			</div>
