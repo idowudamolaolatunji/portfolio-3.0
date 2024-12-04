@@ -357,6 +357,9 @@ span.arrow-to-top {
 .nav--lists {
 	list-style: none;
 }
+.nav--item .nav--active {
+	color: #873b64;
+}
 /* .nav--item a:hover {} */
 .nav--others {
 	display: flex;

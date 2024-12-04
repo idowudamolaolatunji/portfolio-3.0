@@ -8,8 +8,11 @@ function Header() {
     const [hasScrolledPass100, setHasScrolledPass100] = useState(false);
 
     useEffect(function () {
-        if (y >= 100) setHasScrolledPass100(true);
-        else setHasScrolledPass100(false)
+        if (y >= 100) {
+            setHasScrolledPass100(true);
+        } else {
+            setHasScrolledPass100(false);
+        }
     }, [y]);
 
 

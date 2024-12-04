@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-function Spinner() {
+function Loading() {
 	return (
 		<div className="spinner-container">
 			<svg className="spinner" x="0px" y="0px" viewBox="0 0 37 37" height="37" width="37" preserveAspectRatio="xMidYMid meet">
@@ -12,4 +12,4 @@ function Spinner() {
 	);
 }
 
-export default Spinner;
+export default Loading;
